@@ -14,4 +14,4 @@ In using font-size element
 
 for dynamic use we use percentage of em but for px it is static.
 
-- rem means root directory i.e ignore the parent settings for the font-
+- rem means root directory i.e ignore the parent settings for the font-size
