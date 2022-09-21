@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Merriweather&family=Montserrat&display=swap');
+
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', sans-serif;
+}
+
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 90px;
+    margin: 50px auto 0 auto;
+   color: #66bfbf;
+   line-height: 2;
+}
+hr{
+    border-style: none;
+    width: 5%;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: grey;
+    margin: 100px auto;
+}
+h2{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2.5rem;
+    color: #66bfbf;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #11999e;
+}
+p{
+    line-height: 2; /* space above the element and below it */
+}
+span{
+    font-weight: bold;
+    font-family: 'Sacramento', cursive;
+}
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+
+}
+.top-cloud{
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+.middle-container{
+    margin: 100px 0;
+    
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+}
+.contact-me h2{
+   font-weight: bold;
+}
+.contact-me p{
+   padding: 30px;
+}
+
+.image-1{
+    width: 400px;
+   
+}
+/* When targeting to style an image individually target its class*/
+.image-2{
+    width: 25%;
+    border-radius: 50px;
+    float: left;
+    margin-right: 30px;
+   
+
+}
+.image-3{
+    width: 25%;
+    border-radius: 30px;
+    float: right;/* it makes you to float the object  on another element*/
+    margin-left: 30px;
+}
+/* .description-1{
+    clear: left; This is used to clear it from the floating element*/
+.btn {
+        background: #11cdd4;
+        background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+        background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+        background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+        -webkit-border-radius: 8;
+        -moz-border-radius: 8;
+        border-radius: 8px;
+        text-shadow: 0px 0px 6px #666666;
+        font-family: 'Montserrat', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px 10px 20px;
+        text-decoration: none;
+}
+.btn:hover {
+        background:  #30e3cb;
+        background-image: -webkit-linear-gradient(top,  #30e3cb,  #2bc4ad);
+        background-image: -moz-linear-gradient(top,  #30e3cb,  #2bc4ad);
+        background-image: -ms-linear-gradient(top,  #30e3cb,  #2bc4ad);
+        background-image: -o-linear-gradient(top,  #30e3cb,  #2bc4ad);
+        background-image: linear-gradient(to bottom,  #30e3cb,  #2bc4ad);
+        text-decoration: none;
+}
+
+
+
+.bottom-container{
+       background-color: #66bfbf;
+       padding-top: 40px;
+}
+.bottom-container a{
+    padding: 15px;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #11999e;
+   
+}
+.bottom-container a:hover{
+    color: #eaf6f6;
+}
+.bottom-container p{
+    color: #eaf6f6;
+    padding: 20px 0;
+    font-size: 0.75rem;
+
+}
